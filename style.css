@@ -119,7 +119,7 @@ main{
         max-width: 117rem;
         padding: 0 5rem;
     } 
-    media{
+    main{
         grid-template-columns: 1fr 1fr;
     }
 
@@ -129,6 +129,7 @@ main{
 @media (min-width: 900px) {
  
     main{
+        grid-template-columns: auto;
         grid-template-areas: "A B B"
         "C C D";
     }  
